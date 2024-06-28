@@ -1,12 +1,24 @@
 #container{
     display: flex;
     flex-wrap: wrap;
-    width: 480px;
+   
 }
+
+.header {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    
+}
+button{
+    width: 100px;
+    height: 25px;
+    margin-left: 15px;
+}
+
 .divSquares{
     border: 1px solid black;
     width: 30px;
     height: 30px;
     box-sizing: border-box;
-    
 }
